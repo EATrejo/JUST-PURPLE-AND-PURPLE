@@ -1,0 +1,56 @@
+
+.form-layout{
+
+    border-radius: 20px;
+    width: 500px;
+    
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    background-color: blueviolet;
+}
+
+.py-4{
+   background-color: blueviolet; 
+}
+
+.navbar{
+    background-color: rgb(80, 24, 134); 
+}
+
+.navbar-toggler {
+    background-color: rgb(163, 159, 159);
+}
+
+.navbar-nav{
+    background-color: rgb(80, 24, 134); 
+}
+
+.collapse{
+   background-color: rgb(80, 24, 134);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
