@@ -17,7 +17,16 @@ SECRET_KEY = 'django-insecure-olc_l4v9uimldmd)xjf0qcgbl#f3zyln(b##@b26_&2q_oo@_d
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+
+# Allowed hosts
+ALLOWED_HOSTS = []
+if DEBUG:
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Para desarrollo
+else:
+    ALLOWED_HOSTS = ['alonsotrejo1970.pythonanywhere.com']  # Para producción
+
+
+
 
 #CSRF_TRUSTED_ORIGINS = ['']
 
